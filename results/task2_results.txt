@@ -1,0 +1,25 @@
+Zadanie 2 - Wyniki algorytmu SA ze skalaryzacj¹
+==================================================
+
+Parametry problemu:
+n = 10
+seed = 42
+Znormalizowane wspó³czynniki: c1=1.000, c2=0.542, c3=1.000
+
+Gdzie:
+c1 - waga dla maksymalnego spóŸnienia (max tardiness)
+c2 - waga dla sumy spóŸnieñ (total tardiness)
+c3 - waga dla maksymalnego opóŸnienia (max lateness)
+
+Wyniki dla ró¿nych wartoœci maxIter:
+maxIter=100: avg_score=122.127, std=109.667
+maxIter=200: avg_score=42.857, std=48.633
+maxIter=400: avg_score=10.077, std=27.780
+maxIter=800: avg_score=-51.000, std=0.000
+maxIter=1600: avg_score=-51.000, std=0.000
+
+Wyniki dla ró¿nych zestawów wspó³czynników:
+c1=1.0, c2=1.0, c3=1.0: avg_score=-51.000
+c1=1.0, c2=0.5, c3=1.0: avg_score=-51.000
+c1=1.0, c2=0.5, c3=2.0: avg_score=-100.400
+c1=2.0, c2=1.0, c3=0.5: avg_score=-25.500
